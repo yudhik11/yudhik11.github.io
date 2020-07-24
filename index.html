@@ -10,8 +10,11 @@
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
+
 </head>
 
 <body>
@@ -55,8 +58,9 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Yudhik   Agrawal</h1>
-            <h2>Data Scientist</h2>
-            <a href="./Resume_corp.pdf" class="btn-rounded-white" download>Download Resume</a>
+            <h2>IIIT-H CS Research Student</h2>
+            <a href="./research_resume.pdf" class="btn-rounded-white" download><b>RESEARCH</b> RESUME</a>
+            <a href="./software_resume.pdf" class="btn-rounded-white" download><b>SOFTWARE</b> RESUME</a>
         </div>
         <!-- End #lead-content -->
 
@@ -79,23 +83,29 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Hello! I am <strong>Yudhik Agrawal</strong> and I am a fourth year <strong>research student</strong>  at <a href="https://iiit.ac.in">IIIT Hyderabad</a>. I work with the <a href="http://cvit.iiit.ac.in/">Centre for Visual Information Technology (CVIT)</a> under the guidance of <a href="https://sites.google.com/site/asharmaresearch/" <strong>Dr. Avinash Sharma</strong></a>. 
-                    <br/>
-                    <br/>
-                    </p>
-                    <p>
-                        I have a keen interest in finding solutions using Computer Vision and Machine Learning. Hence, my area of research involves computer vision and Computer Graphics using Deep Learning.
-                    <br/>
-                    <br/>
-                    </p>
-                    <p>
-                        Since the beginning, I have been a <strong><a href="https://www.codechef.com/users/yudhik">coding enthusiast</a></strong>. Moreover, I love solving puzzles and have won several awards in quizzes and olympiads over the years. Also, I love to give hackathons and have won some at big platforms.
+                        Hello! I am <strong>Yudhik Agrawal</strong> and I am a final year <strong>research student</strong>  at <a href="https://iiit.ac.in">IIIT Hyderabad</a>. I work with the <a href="http://csl.iiit.ac.in/">Cognitive Science Lab</a> under the guidance of <a href="https://sites.google.com/view/vinoo-alluri/"><strong> Vinoo Alluri</strong></a>, on using music-induced movements to identify individual traits and also, improving song recommendation system. 
                         <br/>
                         <br/>
                     </p>
                     <p>
-                        My proficiency skills also include management skills which have helped in leading the current Programming Club of IIIT Hyderabad.  
-                            I love music and in the future, if given a chance will love to have a hand on Guitar.
+                        Prior to that, I worked in <a href="http://cvit.iiit.ac.in/">Centre for Visual Information Technology (CVIT)</a> with <a href="https://sites.google.com/site/asharmaresearch/" <strong>Dr. Avinash Sharma</strong></a>, on 3D-Human Body Reconstruction, Registration and generating Temporally coherent Sequence of Human Action. 
+                        I also worked in <a href="https://robotics.iiit.ac.in/">Robotics Research Center (RRC)</a> with <a href="https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en">Dr. K. Madhava Krishna</a>, on avoiding Drone Collisions by Path Planning after doing 3D reconstruction of the surrounding obstacles(eg. Humans) which need not be static.
+                        <br/>
+                        <br/>
+                    </p>
+                    <p>
+                        I have a keen interest in finding solutions using <b>Computer Vision</b> and <b>Machine Learning</b>. Hence, my area of research involves Computer vision using Deep Learning.
+                        <br/>
+                        <br/>
+                    </p>
+                    <p>
+                        Since the beginning, I have been a <strong><a href="https://www.codechef.com/users/yudhik">coding enthusiast</a></strong>. Moreover, I love solving puzzles and have won several awards in quizzes and olympiads over the years. Also, I love to give <b>hackathons</b> and have won some at big platforms.
+                        <br/>
+                        <br/>
+                    </p>
+                    <p>
+                        My proficiency skills also include management skills which have helped in leading the <b>Programming Club</b> of IIIT Hyderabad.  
+                        I love music and in the future, if given a chance will love to have a hand on Guitar.
                     </p>
                 </div>
             </div>
@@ -106,67 +116,106 @@
     <div id="research">
         <h2 class="heading">Research</h2>
         <div class="research-block">
-            <h3>Publications</h3><br/>
-            <h4><a href="https://github.com/yudhik11/HumanMeshNet">HumanMeshNet: Polygonal Mesh Recovery of Humans (ICCV-W 2019)</a></h4>
-            <h4 style="font-style: italic">Abbhinav Venkat, Chaitanya Patel, <b>Yudhik Agrawal</b>, Avinash Sharma</h4>
-            <p>
-                    <b>Abstract: </b>3D Human Body Reconstruction from a monocular image is an important problem in computer vision with applications in virtual and augmented reality platforms, animation industry, en-commerce domain, etc. While several of the existing works formulate it as a volumetric or parametric learning with complex and indirect reliance on re-projections of the mesh, we would like to focus on implicitly learning the mesh representation. To that end, we propose a novel model, HumanMeshNet, that regresses a template mesh's vertices, as well as receives a regularization by the 3D skeletal locations in a multi-branch, multi-task setup.
-The image to mesh vertex regression is further regularized by the neighborhood constraint imposed by mesh topology ensuring smooth surface reconstruction. The proposed paradigm can theoretically learn local surface deformations induced by body shape variations and can therefore learn high-resolution meshes going ahead. 
-We show comparable performance with SoA (in terms of surface and joint error) with far lesser computational complexity, modeling cost and therefore real-time reconstructions on three publicly available datasets. We also show the generalizability of the proposed paradigm for a similar task of predicting hand mesh models. Given these initial results, we would like to exploit the mesh topology in an explicit manner going ahead.
-            </p>
+            <h2 style="font-style: italic">Publications</h2>
+            <div class="research-block">
+                <h3><b>Towards Multimodal MIR: Predicting individual differences from music-induced movement</b></h3><br>
+                <h5 style="font-style: italic">October 2020:  In ISMIR 2020</h5>
+                <h4 style="font-style: italic"><b>Yudhik Agrawal</b>, Samyak Jain, Emily Carlson, Petri Toiviainen, Vinoo Alluri</h4>
+                <!-- <p> -->
+                    We proposed a Machine-Learning model that predicts individual traits from music-induced movement patterns and further find associations between dance movements and traits.<br><br>
+                <!-- </p> -->
+                <button onclick=" window.open('https://arxiv.org/abs/2007.10695','_blank')" type="button" target="_blank" class="btn btn-light">Pdf</button>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModalMIR">Cite</button>
+                <button onclick=" window.open('https://github.com/yudhik11/TowardsMultimodalMIR','_blank')" type="button" target="_blank" class="btn btn-light">Code</button>
+                <!-- <button onclick=" window.open('http://cvit.iiit.ac.in/research/projects/cvit-projects/surface-reconstruction','_blank')" type="button" target="_blank" class="btn btn-light">Project</button>
+                <button onclick=" window.open('https://www.youtube.com/watch?v=zPMoNVfhlRs','_blank')" type="button" target="_blank" class="btn btn-light">Video </button> -->
+                
+                <!-- Modal -->
+                <div class="modal fade" id="myModalMIR" role="dialog">
+                    <div class="modal-dialog">
+                    
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Cite</h4>
+                            </div>
+                            <div id="copy-MIR" class="modal-body">
+                            <pre>
+@misc{agrawal2020multimodal,
+    title={Towards Multimodal MIR: Predicting individual differences from music-induced movement},
+    author={Yudhik Agrawal and Samyak Jain and Emily Carlson and Petri Toiviainen and Vinoo Alluri},
+    year={2020},
+    eprint={2007.10695},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+                            </pre>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" onclick="CopyToClipboard('copy-MIR')" class="btn btn-default">Copy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End .research-block -->
+            <div class="research-block">
+                <h3><b>HumanMeshNet: Polygonal Mesh Recovery of Humans</b></h3><br>
+                <h5 style="font-style: italic">October 2019:  In ICCV-Workshop 3DRW 2019</h5>
+                <h4 style="font-style: italic">Abbhinav Venkat, Chaitanya Patel, <b>Yudhik Agrawal</b>, Avinash Sharma</h4>
+                <!-- <p> -->
+                    We proposed a multi-branch multi-task HumanMeshNet network that simultaneously regress to the template mesh vertices as well as body joint locations from a single monocular image.<br><br>
+                <!-- </p> -->
+                <button onclick=" window.open('https://arxiv.org/abs/1908.06544','_blank')" type="button" target="_blank" class="btn btn-light">Pdf</button>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModalHuman">Cite</button>
+                <button onclick=" window.open('https://github.com/yudhik11/HumanMeshNet','_blank')" type="button" target="_blank" class="btn btn-light">Code</button>
+                <button onclick=" window.open('http://cvit.iiit.ac.in/research/projects/cvit-projects/surface-reconstruction','_blank')" type="button" target="_blank" class="btn btn-light">Project</button>
+                <button onclick=" window.open('https://www.youtube.com/watch?v=zPMoNVfhlRs','_blank')" type="button" target="_blank" class="btn btn-light">Video </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="myModalHuman" role="dialog">
+                    <div class="modal-dialog">
+                    
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Cite</h4>
+                            </div>
+                            <div id="copy-human" class="modal-body">
+                            <pre>
+@inproceedings{venkat2019humanmeshnet,
+    title={HumanMeshNet: polygonal mesh recovery of humans},
+    author={Venkat, Abbhinav and Patel, Chaitanya and Agrawal, Yudhik and Sharma, Avinash},
+    booktitle={Proceedings of the IEEE International Conference on Computer Vision Workshops},
+    pages={0--0},
+    year={2019}
+}
+                            </pre>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" onclick="CopyToClipboard('copy-human')" class="btn btn-default">Copy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End .research-block -->
         </div>
         <!-- End .research-block -->
+        
 
         <div class="research-block">
-            <h3>Ongoing Research</h3>
-            <h4></h4>
-            <h4><b>Boundless Sequence Generation</b></h4>
-            <p>
-                <ul>
-                    Generating Sequences with multiple action by learning a common manifold. The main aim is learning to generate sub-actions and synthesize motion.
-                </ul>
-                
-            </p>
-            <br>
-            <h4><b>Drone Collision Avoidance by Locating Humans and performing Future Trajectory Prediction</b></h4>
-            <p>
-                <ul>
-                    Locating the humans from a given Monocular RGB Image and plotting them on occupancy Map. Future Trajectory Prediction of humans given the constrained environment to avoid collision.
-                </ul>
-                
-            </p>
-            <br>
-            <!-- <h4><b>3D human reconstruction for future using temporal data</b></h4>
-            <p>
-                <ul>
-                        3D Human body reconstruction along with hairs and clothing is a bit of an ambitious task using only monocular RGB image, but with temporal data, it could be treated as a system with multiple views.
-                </ul>
-                
-            </p>
-            <br> -->
-            <h4><b>3D human and cloth reconstruction using non-parametric model</b></h4>
-            <p>
-                <ul>
-                        The drawback of Parametric model is that we are constrained to the fixed notion of the body with pre-defined joints like in SMPL which although makes the task easier for the network 
-                        but does not have details for clothing, hairs, etc. By defining a robust non-parametric function we can incorporate the above mentioned drawbacks and do the 3D reconstruction to have hairs and clothing information.
-                </ul>
-                
-            </p>
-            
-        </div>
-        <div class="research-block">
-            <h3>Other Exploratory Threads</h3><br>
+            <h3>Featured In</h3><br>
             <h4></h4>
             <p>
             <ul>
                 <li>
-                    3D human reconstruction for future using temporal data
+                    <h4> <b>Blogs[IIIT]: </b> <a href = "https://blogs.iiit.ac.in/music-traits/"> Now A Machine Learns to Map Music-induced Movement To Your Traits </a></h4>
                 </li>
                 <li>
-                    Prior based Unified Reconstruction of 3D Human Body and Hand Models
-                </li>
-                <li>
-                    High Quality 3D face mesh reconstruction
+                    <h4> <b>News[TheHansIndia]: </b> <a href = "https://www.thehansindia.com/telangana/how-you-groove-to-music-says-a-lot-about-you-iiit-hyderabad-634162"> How you groove to music says a lot about you: IIIT-Hyderabad </a></h4>
                 </li>
             </ul>
         </p>
@@ -179,210 +228,72 @@ We show comparable performance with SoA (in terms of surface and joint error) wi
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
 
-        <div data-date="May 2018 – Present">
-            <h3>Center for Visual Information Technology, IIIT-H</h3>
-            <h4>Research Assistant</h4>
-            <p>
-                Currently working as a researcher under Professor Avinash Sharma, on 3D Shape Analysis using Deep Learning - Reconstruction, Registration, Texture and Clothing Recovery.
-            </p>
-        </div>
-        <div data-date="May 2019 – Present">
-            <h3>Robotics Research Center, IIIT-H</h3>
-            <h4>Research Student</h4>
-            <p>
-                Currently working under Dr. K. Madhava Krishna, on avoiding Drone Collisions by Path Planning after doing 3D reconstruction of the surrounding obstacles(eg. Humans) which need not be static.
-            </p>
-        </div>
-        <div data-date="January 2019 – May 2019">
-            <h3>Optimization Methods</h3>
-            <h4>Teaching Assistant</h4>
-            <p>
-                The work involves grading, making problem sets and, taking tutorials of a class of 270 students.
-            </p>
-        </div>
-        <div data-date="July 2019 – December 2019">
-            <h3>Graphics</h3>
-            <h4>Head Teaching Assistant</h4>
-            <p>
-                The work involved grading, making creative Graphics Assignment in OpenGL and all other evaluations.
-            </p>
-        </div>
-        <div data-date="July 2018 – December 2018">
-            <h3>Computer Programming</h3>
-            <h4>Teaching Assistant</h4>
-            <p>
-                The work involves explaining concepts of programming in tutorials, taking labs, setting assignments and paper correction. 
-                Computer Programming is the foundation course for the coding of IIITians which test skills at high standards.
-            </p>
-        </div>
-        <div data-date="January 2019 – May 2019">
-            <h3>Digital Signal Analytic and Application</h3>
-            <h4>Teaching Assistant</h4>
-            <!-- <p>
-                The work involves grading, making problem sets and, taking lectures of a class of 140 students.
-            </p> -->
-        </div>
-        <div data-date="July 2018 – Present">
-            <h3>Programming Club IIIT-H</h3>
-            <h4>Coordinator</h4>
-            <p>
-                The work involves giving seminars from basic to very advanced topics.<br>
-                It also involves hosting contests and alerting about various important events like ICPC, Google Codejam, Facebook HackerCup and also keep the students motivated for contests and routinely discussions.
-                
-            </p>
-        </div>
-        <div data-date="November 2018 – February 2019">
-            <h3>Nebulae</h3>
-            <h4>Freelancer</h4>
-            <p>
-                Robust Parser for extracting information about any university.<br>
-                Some of the many fields were also included informations like "Affiliations", "Location", "Established", "Students", "university_logo", "Type", "google_maps_url", "course",
-                 "Programs offered", "Degree".<br>
-                The parser is robust enough to take care of different site-maps, Language and the sources of information was not just limited to Wikipedia but also various other sites.
-            </p>
-        </div>
+            <div data-date="January 2020 – Present">
+                <h3>Research Assistant</h3>
+                <h4><a href="http://csl.iiit.ac.in">Cognitive Science Lab, IIIT-H</a></h4>
+                <!-- <p> -->
+                    Currently working with <a href="https://sites.google.com/view/vinoo-alluri/">Prof. Vinoo Alluri</a>, on using music-induced movements to identify individual traits and also, improving song recommendation system.
+                <!-- </p> -->
+            </div>
+            <div data-date="May 2020 – July 2020">
+                <h3>Summer Analyst</h3>
+                <h4><a href="https://www.goldmansachs.com/">Goldman Sachs, Bengaluru</a></h4>
+                <!-- <p> -->
+                    Worked on Data Ingestion Enhancements in Data Pipeline Framework, and did further exploration which would benefit the project in future.
+                <!-- </p> -->
+            </div>
+            <div data-date="May 2018 – July 2020">
+                <h3>Research Assistant</h3>
+                <h4><a href="https://cvit.iiit.ac.in/">Center for Visual Information Technology, IIIT-H</a></h4>
+                <!-- <p> -->
+                    Worked with <a href= "https://sites.google.com/site/asharmaresearch/">Prof. Avinash Sharma</a>, on 3D-Human Body Reconstruction, Registration and generating emporally coherent Sequence of Human Action.
+                <!-- </p> -->
+            </div>
+            <div data-date="May 2019 – May 2020">
+                <h3>Research Student</h3>
+                <h4><a href="https://robotics.iiit.ac.in/">Robotics Research Center, IIIT-H</a></h4>
+                <!-- <p> -->
+                    Worked under <a href="https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en">Dr. K. Madhava Krishna</a>, on avoiding Drone Collisions by Path Planning after doing 3D reconstruction of the surrounding obstacles(eg. Humans) which need not be static.
+                <!-- </p> -->
+            </div>
+            <div data-date="August 2018 – May 2020">
+                <h3>Teaching Assitant</h3>
+                <h4>IIIT Hyderabad</h4>
+                <!-- <p> -->
+                    <ul>
+                        <li>
+                            ICS101 - Computer Programming - Monsoon 2018
+                        </li>
+                        <li>
+                            IEC239 - Digital Signal Analytics & Appl. - Spring 2019
+                        </li>
+                        <li>
+                            CSE251 - Graphics - Monsoon 2019
+                        </li>
+                        <li>
+                            CSE481 - Optimization Methods - Spring 2020
+                        </li>
+                    </ul>
                     
-	<!-- <div data-date="May 2019 – July 2019">
-                <h3>GOOGLE</h3>
-                <h4>Software Engineering Intern</h4>
-                <p>Working as a SWE intern in Google BLR. My project involves migration of an
-internal Google tool name Billy to a new platform. This majorly involves stack
-development in Java and design thinking skills.
-<br>
-My project was to migrate an internal Google tool to a different framework as a part of migration from Google Web Toolkit. TO do this I had to study boq, guice, proto buffers, apps framework, promisegraphs and many more new technologies used by google. My work involved creating an independent server which is currently running in production.</p>		
+                <!-- </p> -->
             </div>
-
-
-	<div data-date="December 2018 – Now">
-                <h3>AICrowd</h3>
-                <h4>Software Developer Intern</h4>
-                <p>
-                    CrowdAI enables data science experts and enthusiasts to collaboratively solve real-world problems, through challenges. 
-		    <br>
-		    I am working as a web developer to solve some issues with the web app, as well as revamp the application as a whole. This involves mainly working with the MVC structure of rails 5 and deployment on heroku. 
-		    I am mainly responsible for creating a rating algorithm as well as redesigning the whole web application.
-                </p>
-            </div>
-
-	<div data-date="October 2018 – December 2018">
-                <h3>Controversy Score for YouTube Videos</h3>
-                <h4>Freelancer</h4>
-                <p>
-                    Understanding controversies in online news is crucial for journalists, online social networks, and policy makers. In this research, we present a new metric, Controversy Score, for detection of controversial content in social media. The score employs a statistical approach that infers the controversiality of content from the toxicity of its comments, such that the toxicity distribution approximates either an `M' or `U' shaped distribution. We validate the approach using a dataset of 180,733 YouTube comments from an online news publisher. In addition, we build a predictive model to score controversiality of a news story even when its comments are disabled. Our findings suggest that the most engaging videos are also the most controversial ones. Furthermore, a qualitative analysis of the controversial themes suggests that the framing of the story impacts its controversiality. 
-                </p>
-            </div>
-
-         <div data-date="May 2018 – August 2018">
-                <h3>Google Summer of Code</h3>
-                <h4>Intern at PublicLab</h4>
-                <p>
-                    This project is an extension of last year's GSoC project. In this summer I have added various new functionalities to the existing leaflet-blurred-location library and created another library to display locations saved by leaflet-blurred-location in a tricky way so that no information is leaked without the user's permission. This project involved refactoring of the existing code and adding CodeClimate to the repository as well. New UI tools were also added to leaflet-blurred-location along with resolving some previous bugs as well.
-                    <br>
-                    For leaflet-blurred-location-display, almost the whole repository was set up and integrated with leaflet-blurred-location to provide a demo. The demo for leaflet-blurred-location-display is live with all the features of leaflet-blurred-location as well.
-                </p>
-            </div>
-
-        <div data-date="February 2018 – May 2018">
-                <h3>Thing Trax</h3>
-                <h4>Senior Data Scientist</h4>
-                <p>
-                    Working as a senior data scientist to create working production models to track man hours for workers working in a factory. This was further extended to check uniform and safety equipment used by the workers. The project majorly involved working with computer vision models and modifying some pre existing techniques to get the desired result we wanted.
-                    <br>
-                    The technologies used in this project were python, tensorflow, pytorch, CNN, ANN and parts of Image processing.
-                </p>
-            </div>
-
-
-         <div data-date="June 2018 – Decemeber 2018">
-                <h3>Provocativeness of Online News Media</h3>
-                <h4>Freelancer</h4>
-                <p>
-                    Rating Online Content Based on Toxicity of Its Comments.<br />
-                    There are a plethora of works focusing on detection and classification of online hate. Yet, few studies aim at developing metrics for decision makers to better understand online hate in their social media content.
-                    <br>
-                    This research undertakes that challenge and introduces provocation score, a measure for hatefulness of online videos, based on the number and intensity of hateful comments a video receives. Easily understandable metrics and visualizations of the prevalence of hate in different content pieces is crucial for community moderators and content creators when they evaluate how provocative their content is, and plan their production activities.
-                </p>
-            </div>
-
-         <div data-date="May 2018 – Now">
-                <h3>Abatar</h3>
-                <h4>Co-Founder</h4>
-                <p>
-                    Abatar helps Celebrities/Influencers to understand and communicate with their audiences personally at Scale. It helps users to make a better social profile with lesser maintenance and hard work. You could get your social profile on all social platforms, and you will be updated/suggested of the things that are going on and what should you be posting. It will predict the number of likes and comments you would receive based on your posts.<br /> 
-                    We use machine learning to predict all this based on your history. Later versions include posting on your behalf, recommending people to follow, how to increase followers, etc. You can learn more about it <a href="https://abatar.me/">here</a> 
-                </p>
-            </div>
-
-         <div data-date="March 2018 – November 2018">
-                <h3>Automated Face Generation</h3>
-                <h4>Freelancer</h4>
-                <p>
-                    Creating pictures of faces using Generative models. Working with various conditions such as ethnicity, age, gender to generate faces using stack GANs after preprocessing for Automated Persona Generation. I am using multiple layers in the stack, each layer consisting of generators and discriminators of different dimensions. This idea was taken up by the NVIDIA paper on high resolution face generation, but now we have to do it with conditions on faces.<br /> 
-                    We focus on feeding face structure, complexion and age as the input features and would get a new face in return. Later stages include Automated Persona Generation where one can build a whole new person profile online using only some input features.
-                </p>
-            </div>
-
-
-         <div data-date="January 2018 – March 2018">
-                <h3>Airline Prediction</h3>
-                <h4>Freelancer</h4>
-                <p>
-                    Creating a recommender system to suggest the next destination of a passenger with his/her basic information such as age, gender, etc. and some information from the passengers' past flight records. Using LightFM and Surprise algorithms.<br />
-                    LightFM is a Python implementation of a number of popular recommendation algorithms for both implicit and explicit feedback.<br />
-
-                    It also makes it possible to incorporate both item and user metadata into the traditional matrix factorization algorithms. It represents each user and item as the sum of the latent representations of their features, thus allowing recommendations to generalise to new items (via item features) and to new users (via user features).<br />
-
-                    Surprise provides various ready-to-use prediction algorithms such as baseline algorithms, neighborhood methods, matrix factorization-based ( SVD, PMF, SVD++, NMF), and many others. Also, various similarity measures (cosine, MSD, pearson…) are built-in.<br />
+            <div data-date="August 2018 – May 2020">
+                <h3>Programming Club Coordinator</h3>
+                <h4>IIIT Hyderabad</h4>
+                <!-- <p> -->
+                    The work involves giving seminars from basic to very advanced topics.<br>
+                    It also involves hosting contests and alerting about various important events like ICPC, Google Codejam, Facebook HackerCup and also keep the students motivated for contests and routinely discussions.
                     
-                    Our ensemble model proved to give good results with accuracies upto 87%.
-                </p>
+                <!-- </p> -->
             </div>
-
-         <div data-date="January 2018 – February 2018">
-                <h3>Web Scraper</h3>
+            <!-- <div data-date="November 2018 – February 2019">
+                <h3>Nebulae</h3>
                 <h4>Freelancer</h4>
                 <p>
-                    Using selenium to bypass captcha and parsing information regarding property sales in US, on a regular basis. Giving out the output as a formatted csv as requested by the client.
-                </p>
-            </div>
-
-            <div data-date="May 2017 – November 2017">
-                <h3>Eye Tracking Prediction</h3>
-                <h4>Freelancer</h4>
-                <p>
-                    Working as a researcher to write a research paper on eye-tracking data, creating a deep learning model to track eye-movement on some templates and came out with good results and accuracies upto 95%. Other paper included predicting success rate of finnish facebook ads based on appearance of the thumbnails and text in the ad. Potentially might turn into a big project. 
-                </p>
-            </div>
-
-            <div data-date="April 2017 – September 2017">
-                <h3>Facebook Ad Success Prediction</h3>
-                <h4>Freelancer</h4>
-                <p>
-                    Working as a researcher to create a deep learning neural network to predict the success rate of a given Facebook Ad. Taking input as the basics of the Ad such as Thumbnail, description, etc. and giving out predictions of number of hits, likes, etc.
-                </p>
-            </div>
-
-            <div data-date="July 2017 – October 2017">
-                <h3>SMODEX</h3>
-                <h4>Freelancer</h4>
-                <p>
-                    Made a few scripts and web crawlers for SMODEX (a startup) to gather some data. Currently working on creating a deep learning NLP model for resume parsing.  
-                </p>
-            </div>
-
-            <div data-date="April 2017 – August 2017">
-                <h3>Google Summer of Code</h3>
-                <h4>Intern at PublicLab</h4>
-                <p>
-                    Created a javascript library to add additional features to leaflet maps. Adding a variety of features and integrating them to the main website for publiclab. Future prospects include expanding this library to be used in other organizations as well.
-                </p>
-            </div>
-
-            <div data-date="December 2016 – January 2017">
-                <h3>National Informatics Centre</h3>
-                <h4>Development Intern</h4>
-                <p>
-                    Worked with the UI/UX revamp of the intranet website for the petroleum ministry under National Informatics Centre. Used html and css to build the frontend and javascript for the backend and content managing. 
+                    Robust Parser for extracting information about any university.<br>
+                    Some of the many fields were also included informations like "Affiliations", "Location", "Established", "Students", "university_logo", "Type", "google_maps_url", "course",
+                        "Programs offered", "Degree".<br>
+                    The parser is robust enough to take care of different site-maps, Language and the sources of information was not just limited to Wikipedia but also various other sites.
                 </p>
             </div> -->
         </div>
@@ -407,7 +318,7 @@ My project was to migrate an internal Google tool to a different framework as a 
             <h4>Senior Secondary CBSE</h4>
             <ul>
                 <li>
-                    Graduated with 95%
+                    Graduated with <b>95%</b>
                 </li>
             </ul>
             <br>
@@ -417,7 +328,7 @@ My project was to migrate an internal Google tool to a different framework as a 
             <h4>Secondary CBSE</h4>
             <ul>
                 <li>
-                    Graduated with CGPA 10/10
+                    Graduated with <b>CGPA: 10/10</b>
                 </li>
             </ul>
 
@@ -432,19 +343,22 @@ My project was to migrate an internal Google tool to a different framework as a 
             <p>
             <ul>
                 <li>
-                    <h4 style="font-weight: bold"> Secured team rank of <b>35</b> and Qualified for ACM ICPC India Regionals 2019-20 in India</h4>
+                    <h5 style="font-weight: bold"> Secured team(Brahmasmi) rank of <b>35</b> and Qualified for ACM ICPC India Regionals 2019-20 in India</h5>
                 </li>
                 <li>
-                    <h4 style="font-weight: bold"> Ranked 1st in the <a href="https://www.hackerearth.com/challenges/competitive/amdocs-hackfest-2019/">Amdocs HackFest</a> among more than 5000 teams that participated</h4>
+                    <h5 style="font-weight: bold"> Ranked 1st in the <a href="https://www.hackerearth.com/challenges/competitive/amdocs-hackfest-2019/">Amdocs HackFest</a> among more than 5000 teams that participated</h5>
                 </li>
                 <li>
-                    <h4 style="font-weight: bold"> Ranked 3rd in the <a href=https://www.techgig.com/codegladiators"">Techgig Alexa CodeGladiator</a> among more than 3000 teams.</h4>
+                    <h5 style="font-weight: bold"> Recieved Dean's Award for Academic Excellence at IIIT Hyderabad.</h5>
                 </li>
                 <li>
-                    <h4 style="font-weight: bold"> Recieved Dean's Award for Academic Excellence at IIIT Hyderabad </h4>
+                    <h5 style="font-weight: bold"> Secured rank 159 in Google Kickstart Round-F 2019.</h5>
                 </li>
                 <li>
-                    <h4 style="font-weight: bold"> Ranked 1285 out of 1.1 million who participated </h4>
+                    <h5 style="font-weight: bold"> Ranked 3rd in the <a href=https://www.techgig.com/codegladiators"">Techgig Alexa CodeGladiator</a> among more than 3000 teams.</h5>
+                </li>
+                <li>
+                    <h5 style="font-weight: bold"> Ranked 1285 out of 1.3 million students who appeared. </h5>
                 </li>
                             
             </ul>
@@ -699,7 +613,23 @@ My project was to migrate an internal Google tool to a different framework as a 
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script>
+        function CopyToClipboard(containerid) {
+            if (document.selection) {
+                var range = document.body.createTextRange();
+                range.moveToElementText(document.getElementById(containerid));
+                range.select().createTextRange();
+                document.execCommand("copy");
+            } else if (window.getSelection) {
+                var range = document.createRange();
+                range.selectNode(document.getElementById(containerid));
+                window.getSelection().addRange(range);
+                document.execCommand("copy");
+            }
+        }
+    </script>
 </body>
 
 </html>
