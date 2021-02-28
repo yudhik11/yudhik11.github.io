@@ -584,7 +584,7 @@ footer {
 }
 
 .miscellaneous-block {
-	max-width: 700px;
+	max-width: 800px;
 	margin: 0 auto 30px auto;
 	padding: 15px;
 	border: 1px solid #dcd9d9;
@@ -604,7 +604,7 @@ footer {
 }
 
 .miscellaneous-block h4 {
-	color: #74808a;
+	color: #5b3e73;
 	clear: both;
 	font-weight: 500;
 	margin: 0 0 15px 0
